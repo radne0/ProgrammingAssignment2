@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
         x <<- y
         mInverse <<- NULL
     }
-    get <- function(y) { x }    
+    get <- function() { x }    
 
 
     #functions for interacting with inverse. set or retrieve the inverse.
